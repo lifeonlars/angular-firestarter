@@ -48,7 +48,7 @@ Starter based on FireStarter. An Angular PWA powered by Firebase and Angular.
 
 Create an account at https://firebase.google.com/
 
-- `git clone https://github.com/codediodeio/angular-firestarter.git firestarter`
+- `git clone https://github.com/lifeonlars/angular-firestarter.git firestarter`
 - `cd firestarter`
 - `npm install`
 
