@@ -2,7 +2,7 @@
 
 # FireStarter - Angular + Firebase Progressive Web App
 
-Starter based on FireStarter. An Angular PWA powered by Firebase and Angular. 
+An Angular PWA starter powered by Firebase and Angular. 
 
 - [Live Demo](https://firestarter-96e46.firebaseapp.com/)
 
