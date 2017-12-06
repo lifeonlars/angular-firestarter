@@ -8,7 +8,7 @@ FireStarter is a basic Angular PWA powered by Firebase. It can serve as a founda
 - [Lessons and Screencasts](https://angularfirebase.com)
 - [Join the Slack Team](https://join.slack.com/t/angularfirebase/shared_invite/enQtMjU2OTU5OTMyODM3LWU4YTZiMGFhZjJhYmEwYzI1MWFmYTgyMWRmOTI5NWZjYWE3NTMwZjFmNWMwZGI1MmMzODQ3OTFlZjFkMjc5N2Y)
 
-## Features
+## Features (current)
 
 - Angular 5.0
 - 100 PWA Lighthouse Score
@@ -16,19 +16,34 @@ FireStarter is a basic Angular PWA powered by Firebase. It can serve as a founda
 - CRUD Demos (Firestore & Realtime DB)
 - File Uploads to Firebase Storage Demo
 
-## TODO => Expand
+## Wishlist (TODO)
 
-- Angular Material integration
-- Expanded user profiles
-- Auth guards for certain sections
-- Access phone camera + storage
-- CRUD for basic entity type (e.g. destination/entry/product or whatever)
-- Listing for basic entities 
-- Simple filters for entities (e.g. location, category or tag)
-- Basic pagination or infinite scroll
-- "News Feed" listing
-- Google Maps Example (ability to attach to basic entity type)
-- Basic search functionality
+- [x] Angular 5.0
+- [ ] Angular Cli
+- [ ] Angular Material
+- [ ] PWA Support (service worker + app manifest)
+- [ ] Firebase Firestore (ideally using AngularFire)
+- [ ] NgRX for state management
+
+*Functionality*
+
+- [ ] Firebase Auth (login with Facebook, Google or email) 
+- [ ] Expanded user profiles with custom data in Firestore
+- [ ] Access camera or phone storage => Upload files to Firebase Storage
+- [ ] Google Maps support and "use my location"
+
+*Additional*
+
+- [ ] Routing examples
+- [ ] Auth guards for relevant sections
+- [ ] CRUD for basic entity type(s) (e.g. entry,destination,location,product,post)
+- [ ] Listing for basic entity type
+- [ ] Filters for basic entity type
+- [ ] "Social update feed"
+- [ ] Basic search
+- [ ] Basic pagination 
+- [ ] Infinite scroll 
+
 
 
 ## Usage
