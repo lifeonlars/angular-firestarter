@@ -2,11 +2,9 @@
 
 # FireStarter - Angular + Firebase Progressive Web App
 
-FireStarter is a basic Angular PWA powered by Firebase. It can serve as a foundation to learn this stack and roll out more complex features.
+Starter based on FireStarter. An Angular PWA powered by Firebase and Angular. 
 
 - [Live Demo](https://firestarter-96e46.firebaseapp.com/)
-- [Lessons and Screencasts](https://angularfirebase.com)
-- [Join the Slack Team](https://join.slack.com/t/angularfirebase/shared_invite/enQtMjU2OTU5OTMyODM3LWU4YTZiMGFhZjJhYmEwYzI1MWFmYTgyMWRmOTI5NWZjYWE3NTMwZjFmNWMwZGI1MmMzODQ3OTFlZjFkMjc5N2Y)
 
 ## Features (current)
 
