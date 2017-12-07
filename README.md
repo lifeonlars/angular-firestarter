@@ -28,6 +28,7 @@ An Angular PWA starter powered by Firebase and Angular.
 - [ ] AOT + PRPL pattern
 - [ ] Angular Universal
 - [ ] Unit Testing + BDD using Jasmine & Karma
+- [ ] Support for both NPM and Yarn
 
 *Functionality*
 
