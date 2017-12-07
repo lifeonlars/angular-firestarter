@@ -50,15 +50,17 @@ An Angular PWA starter powered by Firebase and Angular.
 
 *Views*
 
-- [ ] Login/Registration
+- [ ] Login/Registration/Forgot
 - [ ] User profile 
 - [ ] Settings
 - [ ] Home screen: "Social update feed" (posts with user profile details e.g. profile image, user name, date added)
 - [ ] Event Listing
 - [ ] Event Details
-- [ ] Venue Listing
-- [ ] Venue Details
+- [ ] Location/Venue Listing
+- [ ] Location/Venue Details
 - [ ] Map with nearby events/venues (near me)
+- [ ] Image Gallery
+- [ ] Search (search results)
 
 
 *Nice to have*
@@ -77,7 +79,11 @@ An Angular PWA starter powered by Firebase and Angular.
  - Structure data in Firestore to take advantage of shallow queries for entity list view vs. entity details view
  - Implement best practice Material Design components via Angular Material
  - Best practice Angular form implementation whilst allowing for easy modififaction/extension
- - 
+ 
+ *Other Consideratons*
+ - Use realistic sample data
+ - Avoid being too generic, pick a specific niche that allows it to appear as an actual app
+
 
 ## Usage
 
