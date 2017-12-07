@@ -24,6 +24,10 @@ An Angular PWA starter powered by Firebase and Angular.
 - [ ] Firebase Firestore + AngularFire
 - [ ] NgRX for state management
 - [ ] Firebase Cloud Functions (resize images)
+- [ ] Firebase Hosting (`firebase deploy`)
+- [ ] AOT + PRPL pattern
+- [ ] Angular Universal
+- [ ] Unit Testing + BDD using Jasmine & Karma
 
 *Functionality*
 
@@ -31,8 +35,7 @@ An Angular PWA starter powered by Firebase and Angular.
 - [ ] Expanded user profiles with custom data in Firestore
 - [ ] Access camera or phone storage => Upload files to Firebase Storage
 - [ ] Google Maps support and "use my location"
-
-
+ 
 *Core features*
 
 - [ ] Routing
@@ -65,11 +68,23 @@ An Angular PWA starter powered by Firebase and Angular.
 - Social sharing
 - User Reviews
 
+## Aim to cover the following core concepts
 
+ - Ability to add and edit entities in Firestore
+ - Ability to link entities in Firestore e.g. linking an event to a venue and automatically duplicate the data in both collections
+ - Ensure data is kept in sync across collections when editing
+ - Structure data in Firestore to take advantage of shallow queries for entity list view vs. entity details view
+ - Implement best practice Material Design components via Angular Material
+ - Best practice Angular form implementation whilst allowing for easy modififaction/extension
+ - 
 
 ## Usage
 
 Create an account at https://firebase.google.com/
+
+- Enable authentication with email, Google and Facebook via console => Authentication => Sign in method
+- Enable Firestore under console => Database
+- Set database permissions to enable read/write access for authenticated users
 
 - `git clone https://github.com/lifeonlars/angular-firestarter.git firestarter`
 - `cd firestarter`
