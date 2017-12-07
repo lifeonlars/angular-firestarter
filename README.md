@@ -16,11 +16,12 @@ An Angular PWA starter powered by Firebase and Angular.
 
 ## Wishlist (TODO)
 
-- [x] Angular 5.0
-- [ ] Angular Cli
+*Stack*
+
+- [x] Angular 5.0 + Angular Cli
 - [ ] Angular Material
 - [ ] PWA Support (service worker + app manifest)
-- [ ] Firebase Firestore (ideally using AngularFire)
+- [ ] Firebase Firestore + AngularFire
 - [ ] NgRX for state management
 - [ ] Firebase Cloud Functions (resize images)
 
@@ -32,7 +33,7 @@ An Angular PWA starter powered by Firebase and Angular.
 - [ ] Google Maps support and "use my location"
 
 
-*Additional*
+*Core features*
 
 - [ ] Routing
 - [ ] Auth guards for relevant sections
@@ -53,13 +54,18 @@ An Angular PWA starter powered by Firebase and Angular.
 - [ ] Event Details
 - [ ] Venue Listing
 - [ ] Venue Details
+- [ ] Map with nearby events/venues (near me)
+
 
 *Nice to have*
 
-- [ ] Like feature
-- [ ] Follow feature
-- [ ] Add to Favourite
-- [ ] Social sharing
+- Like feature
+- Follow feature
+- Add to Favourite
+- Social sharing
+- User Reviews
+
+
 
 ## Usage
 
