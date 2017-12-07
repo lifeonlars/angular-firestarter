@@ -1,8 +1,6 @@
 @import 'variables';
 @import url('https://fonts.googleapis.com/css?family=Palanquin|Source+Sans+Pro');
 
-
-
 ///// Content
 
 $body-font: 'Source Sans Pro', sans-serif;
@@ -55,11 +53,11 @@ a {
   font-weight: bold;
   font-family: $heading-font;
   color: #1D262F;
-  img { 
+  img {
     margin-right: 5px;
   }
 }
-  
+
 .footer {
   border-top: 2px solid $gray-lightest;
   min-height: 100px;
