@@ -22,6 +22,7 @@ An Angular PWA starter powered by Firebase and Angular.
 - [ ] PWA Support (service worker + app manifest)
 - [ ] Firebase Firestore (ideally using AngularFire)
 - [ ] NgRX for state management
+- [ ] Firebase Cloud Functions (resize images)
 
 *Functionality*
 
@@ -30,19 +31,35 @@ An Angular PWA starter powered by Firebase and Angular.
 - [ ] Access camera or phone storage => Upload files to Firebase Storage
 - [ ] Google Maps support and "use my location"
 
+
 *Additional*
 
-- [ ] Routing examples
+- [ ] Routing
 - [ ] Auth guards for relevant sections
-- [ ] CRUD for basic entity type(s) (e.g. entry,destination,location,product,post)
-- [ ] Listing for basic entity type
-- [ ] Filters for basic entity type
-- [ ] "Social update feed"
+- [ ] CRUD for example entity types E.g. venue + event 
+- [ ] Listing for example entity type
+- [ ] Details view for example entity types
+- [ ] Filters for example entity types
 - [ ] Basic search
-- [ ] Basic pagination 
-- [ ] Infinite scroll 
+- [ ] Basic pagination and/or infinite scroll
 
+*Views*
 
+- [ ] Login/Registration
+- [ ] User profile 
+- [ ] Settings
+- [ ] Home screen: "Social update feed" (posts with user profile details e.g. profile image, user name, date added)
+- [ ] Event Listing
+- [ ] Event Details
+- [ ] Venue Listing
+- [ ] Venue Details
+
+*Nice to have*
+
+- [ ] Like feature
+- [ ] Follow feature
+- [ ] Add to Favourite
+- [ ] Social sharing
 
 ## Usage
 
