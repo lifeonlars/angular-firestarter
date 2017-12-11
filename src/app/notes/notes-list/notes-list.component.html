@@ -4,7 +4,7 @@
 <input [(ngModel)]="content" placeholder="Add your own note" class="input">
 
 
-<button class="button is-success" (click)="createNote()" [disabled]="content?.length < 2 || content?.length > 200">
+<button mat-raised-button  color="primary" (click)="createNote()" [disabled]="content?.length < 2 || content?.length > 200">
   Add Note
 </button>
 <hr>

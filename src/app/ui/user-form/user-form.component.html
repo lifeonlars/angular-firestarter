@@ -1,7 +1,7 @@
 <form [formGroup]="userForm"  *ngIf="newUser"  (ngSubmit)="signup()">
 
-  <h3>New User Signup</h3>
-  <p class="button is-small" (click)="toggleForm()">Already Registered?</p>
+    <mat-card-title>New User Signup</mat-card-title>
+  <button mat-button (click)="toggleForm()">Already Registered?</button>
   <hr>
 
   <label for="email">Email</label>
@@ -29,7 +29,7 @@
 <form [formGroup]="userForm"  *ngIf="!newUser"  (ngSubmit)="login()">
 
   <h3>Existing User Login</h3>
-  <p class="btn button is-small" (click)="toggleForm()">New User?</p>
+  <button mat-button (click)="toggleForm()">New User?</button>
   <hr>
 
   <label for="email">Email</label>
@@ -48,7 +48,7 @@
     {{ formErrors.password }}
   </div>
 
-  <button type="submit" class="button" [disabled]="!userForm.valid">Submit</button>
+  <button type="submit" mat-raised-button color="primary" [disabled]="!userForm.valid">Submit</button>
 
   <span *ngIf="userForm.valid" class="help is-success">Form Looks Valid</span>
 
